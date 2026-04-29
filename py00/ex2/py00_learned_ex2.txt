@@ -1,0 +1,5 @@
+- tuples: https://www.youtube.com/watch?v=w6hL_dszMxk
+- math library
+- input("Solicita datos al usuario")
+- split()
+- strip()

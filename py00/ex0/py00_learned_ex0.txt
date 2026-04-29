@@ -1,0 +1,9 @@
+Qué he aprendido en ex0:
+- Python es un lenguaje interpretado que se ejecuta línea a ínea.
+- La ejecución en terminal se hace mediante el intérprete 'python3'
+- Hay que indicar el punto de entrada '__name__ == "__main__"'
+- Argumentos:'import sys' 'sys.argv'
+	- https://www.youtube.com/watch?v=ZQ9JO0e9468
+- f-string: print(f"{}")
+- Eliminar espacios entre objetos en print(..., sep="")
+- Slicing en listas '[1:]'
