@@ -1,0 +1,5 @@
+29/04/26 - 2.5h
+
+- Variable Shadowing adn scoope
+- Operador de desempaquetado (*) para iterables y (**) para diccionarios
+	ejem: set.intersection(*player_data.values())
