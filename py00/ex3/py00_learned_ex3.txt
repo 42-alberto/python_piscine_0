@@ -1,5 +1,13 @@
-29/04/26 - 2.5h
+29/04/26 - 4h
 
-- Variable Shadowing adn scoope
+- Variable Shadowing and scoope
 - Operador de desempaquetado (*) para iterables y (**) para diccionarios
 	ejem: set.intersection(*player_data.values())
+- Conversión de Tipos set()
+- Operaciones de Conjuntos (Sets)
+	-set.intersection
+	-set.difference
+- Acceso por Índice en Estructuras Paralelas
+- ¿Por que se imprime un set vacio asi 'set()'?
+	-Como los diccionarios usan {} se usan () 
+	y se define claramente que es un set
