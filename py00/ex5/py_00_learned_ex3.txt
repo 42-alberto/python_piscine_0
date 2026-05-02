@@ -1,0 +1,23 @@
+
+1/05/26 - 3h
+fonts: https://www.youtube.com/watch?v=G1lJeEIl05o
+
+1. Generadores y la palabra clave yield
+    Diferencia con return: Mientras que return termina la función y destruye su estado, yield la pausa, permitiendo que se reanude después exactamente donde se quedó.
+    Ahorro de memoria: Los generadores no almacenan todos los datos a la vez; producen un elemento solo cuando se solicita (evaluación perezosa o lazy evaluation).
+
+2. La función integrada next()
+    Es la herramienta para extraer, uno a uno, los elementos de un iterador o generador.
+    Permite un valor por defecto (ej. next(gen, None)) para evitar errores cuando el generador se agota.
+
+3. Tipado con typing.Generator
+    Requiere tres parámetros: Generator[TipoYield, TipoSend, TipoReturn].
+    En la mayoría de casos básicos, se usa None para los últimos dos: Generator[tuple[str, str], None, None].
+
+4. Estructura for .. in .. (El "Construct")
+    Es la forma más "pythonica" de consumir un generador.
+    Gestiona automáticamente las llamadas a next() y detiene el bucle cuando recibe una señal de que ya no hay más elementos (StopIteration).
+
+5. Convenciones de Python
+    Uso del guion bajo (_): Se emplea como nombre de variable en los bucles for cuando el valor de la iteración no se va a utilizar (solo nos interesa la repetición).
+    List Comprehension: La creación de listas en una sola línea (ej. [next(gen) for _ in range(10)]) para un código más limpio y eficiente.
