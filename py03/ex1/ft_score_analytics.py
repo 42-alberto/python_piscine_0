@@ -31,4 +31,4 @@ def ft_score_analytics() -> None:
 
 
 if __name__ == "__main__":
-    ft_score_analitycs()
+    ft_score_analytics()
