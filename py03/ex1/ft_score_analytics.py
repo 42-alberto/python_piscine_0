@@ -1,7 +1,7 @@
 import sys
 
 
-def ft_score_analitycs() -> None:
+def ft_score_analytics() -> None:
     scores_processed = []
     players = 0
     total = 0
