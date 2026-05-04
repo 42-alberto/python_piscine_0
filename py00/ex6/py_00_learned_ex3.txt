@@ -1,0 +1,7 @@
+
+3/05/26 - 1h
+
+1 - help()
+
+Bloqueos:
+1 - Intentar iterar un dict como una tupla 'dict[1]' cuando nos retorna las keys
