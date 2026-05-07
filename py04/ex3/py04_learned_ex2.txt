@@ -1,0 +1,13 @@
+Tiempo invertido: 1h 30m
+
+Aprendizaje:
+
+1. Gestión de Contextos
+    Sentencia with: Automatización del cierre de archivos y liberación de recursos sin uso de .close().
+    Seguridad: Garantía de integridad del flujo de datos incluso ante excepciones críticas.
+
+2. Estructura de Datos
+    Retorno Atómico: Uso de tuplas (bool, str) para estandarizar el estado y resultado de la operación.
+    Serialización: Conversión de objetos de excepción a texto para reportes de error uniformes.
+
+- Fuentes: https://www.youtube.com/watch?v=LpZmZs2_BC4

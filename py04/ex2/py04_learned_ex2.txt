@@ -1,0 +1,10 @@
+Tiempo invertido: 2h
+
+Aprendizaje:
+
+	- Redirección de flujos: Empleo de sys.stderr para la emisión de mensajes de error con prefijo específico.
+	- Sincronización de terminal: Uso de mecanismos de vaciado de búfer (flush) para asegurar la coherencia visual en la consola.
+	- Gestión manual de entrada: Sustitución de funciones integradas de alto nivel por lectura directa de sys.stdin.
+	- Robustez de I/O: Implementación de cierres manuales de archivos y captura de excepciones de sistema para prevenir cierres inesperados.
+
+- Fuentes: https://www.youtube.com/watch?v=4HY0VBBY7ok

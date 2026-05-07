@@ -1,0 +1,17 @@
+Tiempo invertido: 1h 40m
+
+1. Gestión de Recursos
+
+    Control del ciclo de vida: Liberación de descriptores mediante la secuencia apertura-lectura-cierre.
+    Tipado de flujos: Identificación del objeto TextIOWrapper devuelto por open() frente a cadenas simples.
+    Modos de acceso: Aplicación de lectura en modo texto ("rt") para asegurar la integridad.
+
+2. Robustez (Manejo de Errores)
+
+    Jerarquía de excepciones: Empleo de IOError para capturar fallos de sistema sin ocultar errores de lógica.
+    Aislamiento de fallos: Implementación de bloques try...except independientes para apertura y cierre.
+    Diagnóstico preciso: Uso de la variable de excepción (e) para extraer mensajes del sistema operativo.
+
+- Fuentes: 
+	read(): https://www.youtube.com/watch?v=LpZmZs2_BC4
+	errno[]: https://docs.python.org/es/3.9/library/errno.html

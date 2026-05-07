@@ -1,0 +1,19 @@
+Tiempo invertido: 2h m
+
+Aprendizaje:
+
+	-Manipulación de Datos: Implementación de lógica para la transformación de 
+	cadenas mediante el añadido de caracteres especiales (#) por compatibilidad.
+
+	-Interacción con el Usuario: Empleo de input() para la captura de nombres de 
+	archivos de destino en tiempo de ejecución.
+
+	-Persistencia de Información: Aplicación de operaciones de escritura 
+	(io.write()) para la creación de nuevos registros en el archivo.
+
+	-Modularidad Funcional: Separación de responsabilidades entre la lectura de 
+	fragmentos antiguos y la creación de nuevos protocolos de preservación.
+
+- Fuentes: 
+	https://www.youtube.com/watch?v=GJ5LJnIEEYo
+
