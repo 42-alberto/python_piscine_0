@@ -1,11 +1,6 @@
-"""
-Docstrings:
-count days and advise when harvest
-And the test that only works if this is the main module
-"""
+#!/usr/bin/env python
 
-
-def ft_count_days_recursive(days) -> None:
+def ft_count_days_recursive(days: int) -> None:
     if days < 1:
         return
     if days > 1:
@@ -16,7 +11,3 @@ def ft_count_days_recursive(days) -> None:
 def ft_count_harvest_recursive() -> None:
     ft_count_days_recursive(int(input("Days until harvest: ")))
     print("Harvest time!")
-
-
-if __name__ == "__main__":
-    ft_count_harvest_recursive()
